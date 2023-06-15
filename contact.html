@@ -3,10 +3,110 @@
     <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <title>Contact</title>
+  <style>
+    body {
+  font-family: "Oswald", sans-serif;
+}
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  position: relative;
+  height: 10vh;
+  width: 100%; /* Changed from 100vw to 100% */
+  background-image: url('1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  padding-left: 50px;
+  color: white;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+  text-decoration: underline; 
+}
+
+.nav-item a {
+  color: white;
+  font-size: 1.2em;
+}
+/* styles.css */
+footer {
+  background-color: rgb(2, 14, 48);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-menu ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-icons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  color: rgb(190, 34, 34);
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+hr {
+  width: 80%;
+  margin: 10px auto;
+  border: 0;
+  height: 1px;
+  background-color: #fff;
+}
+
+  </style>
 </head>
 
 <body>
@@ -21,8 +121,23 @@
       </ul>
     </nav>
   </header>
+    <center><iframe style= "padding-top:20px;" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLSfifovccfcJz-i_TgHfynruCgToX9guijW-gh2ySIpeft8OCg/viewform?embedded=true" width="640" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
 
-<body>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfifovccfcJz-i_TgHfynruCgToX9guijW-gh2ySIpeft8OCg/viewform?embedded=true" width="640" height="991" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <footer>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="cv.html">Curriculum Vitæ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/yasmine-lachachi-55b82a277/" target="_blank"><i class="fa-brands fa-linkedin style="color: #ff0000;"></i></a>
+            <a href="https://github.com/lachachiyasmine" target="_blank"><i class="fa-brands fa-github " style="color: #ff0000;"></i></a>
+            <a href="mailto:lachachiyasmine@outllook.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #ff0000;"></i></a>
+        </div>
+    </footer>
+    
 </body>
 </html>
